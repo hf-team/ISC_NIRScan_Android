@@ -1,0 +1,710 @@
+[
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_info.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\menu\\menu_info.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mail.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_info.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_led_r.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\led_r.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_page.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\main_page.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_info_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_info_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_info_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_scan_status.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_error_scan_status.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_connect.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_connect.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_stored_configurations.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\menu\\menu_stored_configurations.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_connect.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_connect.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_led_r.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\led_r.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_connect.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_connect.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_configuration.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_configuration.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_scan_flatx_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\scan_flatx_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_info.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_device_info.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_scan_flatx_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\scan_flatx_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_setting_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\setting_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_splash_screen_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_splash_screen_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_connect.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_connect.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_info_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_info_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_status.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_error_status.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_active_add_scan_config.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\active_add_scan_config.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_info_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\info_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_status_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_error_status_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_scan_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_error_scan_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-hdpi\\icon_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_splash_screen.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_new_scan.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\menu\\menu_new_scan.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_mail.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_advance_device_status.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\advance_device_status.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_led_g.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\led_g.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_settings.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_scan.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_new_scan.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash_screen_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash_screen_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_out_of_spec_aspirin.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\out_of_spec_aspirin.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xhdpi\\icon_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-mdpi\\icon_isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_aspirin.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\aspirin.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_settings.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\menu\\menu_settings.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_advance_device_status_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\advance_device_status_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_info_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\info_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\setting_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_splash_screen_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_splash_screen_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_scan_flatx_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\scan_flatx_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_graph_reference.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\page_graph_reference.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_led_r.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\led_r.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_splash_screen.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_mail.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_leg_gray.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\leg_gray.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_status.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_device_status.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_scan_flatx_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\scan_flatx_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_graph_absorbance.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\page_graph_absorbance.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_connect.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_connect.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan_conf.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_scan_conf.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_splash_screen_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_splash_screen_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-hdpi\\icon_isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_slew_scan_configuration_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_slew_scan_configuration_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_corn_starch.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\corn_starch.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_led_g.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\led_g.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_leg_gray.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\leg_gray.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_graph_intensity.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\page_graph_intensity.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_save_configuration.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\menu\\menu_save_configuration.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_setting_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\setting_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_splash_screen.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_scan_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\scan_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_info_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_leg_gray.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\leg_gray.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xhdpi\\icon_isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_alpha_splash.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\anim\\alpha_splash.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_led_r.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\led_r.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_led_g.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\led_g.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_info_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_info_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_scan_configuration_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_scan_configuration_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_splash_screen.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_setting_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\setting_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_splash_screen_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_splash_screen_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_info_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\info_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_mail.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_info_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\info_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_license_key.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\license_key.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_info_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\info_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_led_g.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\led_g.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-mdpi\\icon_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_scan_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\scan_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_isc_logo.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\isc_logo.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_bellpepper.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\bellpepper.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_glucose.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\glucose.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_info_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_info_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_isc_info.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\isc_info.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_graph_list_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_graph_list_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_setting_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xhdpi\\setting_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_bc.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\bc.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_coconutoil.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\coconutoil.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_led_r.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\led_r.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_flour.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\flour.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_license_view.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\license_view.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_led_g.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\led_g.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_leg_gray.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\leg_gray.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_eucerin_lotion.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\eucerin_lotion.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_stored_scan_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_stored_scan_item.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_scan_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\scan_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scan_flatx_isc.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\scan_flatx_isc.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_graph_reflectance.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\page_graph_reflectance.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scan_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-hdpi\\scan_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_mail.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_coffee.csv.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\raw\\coffee.csv"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_scan_flatx.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxxhdpi\\scan_flatx.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_active_scan.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\activity_active_scan.xml"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_leg_gray.png.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\drawable-xxhdpi\\leg_gray.png"
+    },
+    {
+        "merged": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_nano_scan_item.xml.flat",
+        "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\layout\\row_nano_scan_item.xml"
+    }
+]

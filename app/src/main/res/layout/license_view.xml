@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  NIRScan Nano SDK"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_nirsdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="9dp" />
+
+
+    </ScrollView>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Charts"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_charts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="9dp"/>
+    </ScrollView>
+</LinearLayout>
