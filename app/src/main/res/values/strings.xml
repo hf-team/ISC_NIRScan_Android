@@ -1,5 +1,10 @@
 <resources>
+
     <string name="app_name">ISC NIRScan</string>
+
+    <string name="remember_name">请输入账号</string>
+    <string name="remember_password">请输入密码</string>
+    <string name="text_login">登录</string>
 
     <string name="action_info">Info</string>
     <string name="action_settings">Settings</string>
