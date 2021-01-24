@@ -4,49 +4,59 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends Activity  {
     private static Context mContext;
-    Button btn;
-    EditText login_id,login_password;
+    private EditText username;
+    private EditText password;
+    private Button login;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        login_id = (EditText)findViewById(R.id.login_id);
-        login_password = (EditText)findViewById(R.id.login_password);
-        btn = (Button) findViewById(R.id.login_button);
-        btn.setOnClickListener(this);
-        mContext = this;
-        initComponent();
+        findViews();
+    }
+    private void findViews() {
+        username=(EditText) findViewById(R.id.username);
+        password=(EditText) findViewById(R.id.password);
+        login=(Button) findViewById(R.id.login);
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String name=username.getText().toString();
+                String pass=password.getText().toString();
+                Log.i("TAG",name+"_"+pass);
+                if("admin".equals(name)){
+                    System.out.println("true");
+                    initComponent();
+                }
+//                String url="http://211.82.95.146:5005/login?username=admin&password=admin";
+//                String res = OkHttpUtils.getJsonByInternet(url);
+//                Log.i("TAG", res );
+            }
+        });
+
     }
 
 
     private void initComponent(){
-        btn = (Button)findViewById(R.id.login_button);
-        btn.setOnClickListener(btn_listenser);
+        login = (Button)findViewById(R.id.login);
+        login.setOnClickListener(btn_listenser);
     }
 
-    private Button.OnClickListener btn_listenser = new Button.OnClickListener()
-    {
-
+    private Button.OnClickListener btn_listenser = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent newscanhIntent = new Intent(mContext, HomeViewActivity.class);
-            newscanhIntent.putExtra("main","main");
-            startActivity(newscanhIntent);
+            Intent main = new Intent(MainActivity.this, HomeViewActivity.class);
+            main.putExtra("main","main");
+            startActivity(main);
         }
     };
 
-    @Override
-    public void onClick(View v)
-    {
-        String str = login_id.getText() + " " + login_password.getText();
-        Toast.makeText(this, str, Toast.LENGTH_LONG).show();
-    }
 }
