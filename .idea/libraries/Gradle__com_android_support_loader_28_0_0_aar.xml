@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:loader:28.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/bf77b5c3b02de66d3ae557c7082a9051/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/971e0c9cfdb9d8c57ec63432560afadb/loader-28.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/379b03efe795b98f546a4464a075a8cd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/77db81d87770fef3e679df40c6be2417/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/76a69ea4c58db0166e1e443cba1e202c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/dd58021ca552f7247a5486f1f640d961/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d4e00e480f4b5a393a644862b8b3336f/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f681097e9d89ec5fd67b24546fd56cc/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d035372b4deec7ca4be436be70a78c92/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/268940851c480f4ffbda10a6a3c2459b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ca421e23adda38fe8dde8166d2bb26a1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/07875f7345f61eddd59050a30a2edb23/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd9a9443476c6f59936205b1541fb78b/loader-28.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd9a9443476c6f59936205b1541fb78b/loader-28.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd9a9443476c6f59936205b1541fb78b/loader-28.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

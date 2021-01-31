@@ -1,7 +1,7 @@
 <resources>
 
+    <string name="app_title">粪水养分快速检测系统</string>
     <string name="app_name">ISC NIRScan</string>
-
     <string name="remember_name">请输入账号</string>
     <string name="remember_password">请输入密码</string>
     <string name="text_login">登录</string>

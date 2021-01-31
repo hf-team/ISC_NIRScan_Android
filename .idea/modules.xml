@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ISC_NIRScan_Android-master.iml" filepath="$PROJECT_DIR$/.idea/modules/ISC_NIRScan_Android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/ISC_NIRScan_Android-master.MPChartLib.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/ISC_NIRScan_Android-master.MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISC_NIRScan_Android-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISC_NIRScan_Android-master.app.iml" />
+    </modules>
+  </component>
+</project>

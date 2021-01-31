@@ -4,6 +4,25 @@
             "outputFile": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4378e7c2f8c36232d04aff45e4fa7a5e\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,10,11,18,22,26,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,493,609,1066,1360,1655,1827",
+                        "endLines": "2,3,4,5,10,11,18,22,28,33",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,604,730,1187,1483,1822,2160"
+                    }
+                },
+                {
                     "source": "D:\\java\\02.ISCWORK\\ISC_NIRScan_Android-master\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
@@ -23,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c202612c5379972d5bfad618cafbd3f1\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,10,11,18,22,26,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,493,609,1066,1360,1655,1827",
-                        "endLines": "2,3,4,5,10,11,18,22,28,33",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,604,730,1187,1483,1822,2160"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\7e05a5100ab8df0b7a950c0b39f113c6\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\ZHF-PC\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\358801c359d4bbde506a02072e9e49df\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
