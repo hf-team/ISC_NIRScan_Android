@@ -81,17 +81,51 @@
 
                 </LinearLayout>
 
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/px1"
                     android:layout_below="@id/ll_prefix"
+                    android:background="@color/gray" />
+                <LinearLayout
+                    android:id="@+id/ll_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_prefix"
+                    android:gravity="center"
+                    android:minHeight="@dimen/dip40">
+
+                    <TextView
+                        android:id="@+id/tv_spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/scan_type"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceMedium">
+                        <!--现在的话就是我们已经创建了一个下拉列表项但是还是没有任何的显示
+                         所以现在的话我们要用我们的方法来定义我们的数组资源
+                        -->
+                    </Spinner>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px1"
+                    android:layout_below="@id/ll_spinner"
                     android:background="@color/gray" />
 
                 <LinearLayout
                     android:id="@+id/ll_conf"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/ll_prefix"
+                    android:layout_below="@id/ll_spinner"
                     android:gravity="center"
                     android:minHeight="@dimen/dip40">
 
@@ -962,5 +996,13 @@
         android:background="@android:color/holo_orange_dark"
         android:text="@string/scan"
         android:textColor="@color/white" />
-
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip48"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/dip8"
+        android:background="#2196F3"
+        android:text="@string/report"
+        android:textColor="@color/white" />
 </LinearLayout>

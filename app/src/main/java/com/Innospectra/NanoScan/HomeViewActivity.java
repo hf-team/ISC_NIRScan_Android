@@ -59,8 +59,10 @@ public class HomeViewActivity  extends Activity {
 
         @Override
         public void onClick(View view) {
+            String token=getIntent().getStringExtra("token");
             Intent newscanhIntent = new Intent(mContext, ScanViewActivity.class);
             newscanhIntent.putExtra("main","main");
+            newscanhIntent.putExtra("token",token);
             startActivity(newscanhIntent);
         }
     };

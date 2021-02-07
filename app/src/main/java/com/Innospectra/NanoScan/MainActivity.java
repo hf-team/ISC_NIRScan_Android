@@ -44,18 +44,23 @@ public class MainActivity extends Activity  {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MainActivity.this,HomeViewActivity.class);
+//                // 存储当前用户名，用于工具界面显示信息
+//                startActivity(intent);
+
                 String url = "http://211.82.95.146:5005/login";
                 User user = new User();
                 user.setUsername(username.getText().toString());
                 user.setPassword(password.getText().toString());
                 String json =  JSON.toJSONString(user);
-                Call call = OkHttpClientUtil.postJSON(url,json);
+                Call call = OkHttpClientUtil.login(url,json);
                 call.enqueue(new Callback() {
                     @Override
                     public void onFailure(Call call, IOException e) {
                         Log.d("TAG", "onFailure: ");
                         Looper.prepare();
-                        Toast.makeText(MainActivity.this,"登录失败!",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,"连接服务器失败!",Toast.LENGTH_SHORT).show();
                         Looper.loop();
                     }
                     @Override
@@ -65,10 +70,10 @@ public class MainActivity extends Activity  {
                             JSONObject jsonObject = (JSONObject) JSONObject.parse(json);
                             // 实现页面跳转
                             Intent intent = new Intent();
-                            intent.setClass(MainActivity.this,HomeViewActivity.class);
                             // 存储当前用户名，用于工具界面显示信息
                             intent.putExtra("username",username.getText().toString());
                             intent.putExtra("token",jsonObject.getString("AccessToken"));
+                            intent.setClass(MainActivity.this,HomeViewActivity.class);
                             startActivity(intent);
                             Log.d("TAG", "onResponse: " + json);
                         } else if (username.getText().toString().equals("") || password.getText().toString().equals("")){

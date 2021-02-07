@@ -1,5 +1,6 @@
 package com.Innospectra.NanoScan;
 
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -52,6 +53,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.ISCSDK.ISCNIRScanSDK;
+import com.alibaba.fastjson.JSONArray;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
@@ -62,8 +64,8 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
@@ -71,16 +73,19 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
+
 import static com.ISCSDK.ISCNIRScanSDK.Interpret_intensity;
 import static com.ISCSDK.ISCNIRScanSDK.Interpret_length;
 import static com.ISCSDK.ISCNIRScanSDK.Interpret_uncalibratedIntensity;
 import static com.ISCSDK.ISCNIRScanSDK.Interpret_wavelength;
-import static com.ISCSDK.ISCNIRScanSDK.LAMP_ON_OFF;
 import static com.ISCSDK.ISCNIRScanSDK.Reference_Info;
 import static com.ISCSDK.ISCNIRScanSDK.Scan_Config_Info;
 import static com.ISCSDK.ISCNIRScanSDK.getBooleanPref;
@@ -254,6 +259,7 @@ public class ScanViewActivity extends Activity {
     private Button btn_manual;
     private Button btn_maintain;
     private Button btn_scan;
+    private Button btn_report;
     //Normal scan setting
     private LinearLayout ly_normal_config;
     private EditText filePrefix;
@@ -349,6 +355,14 @@ public class ScanViewActivity extends Activity {
         btn_scan.setClickable(false);
         btn_scan.setBackgroundColor(ContextCompat.getColor(mContext, R.color.btn_unavailable));
         btn_scan.setOnClickListener(Button_Scan_Click);
+
+        btn_report = (Button) findViewById(R.id.btn_report);
+
+        btn_report.setClickable(false);
+        btn_report.setBackgroundColor(ContextCompat.getColor(mContext, R.color.btn_unavailable));
+        btn_report.setOnClickListener(Button_Scan_Report_Click);
+
+
         setActivityTouchDisable(true);
 
         InitialNormalComponent();
@@ -384,6 +398,50 @@ public class ScanViewActivity extends Activity {
         LocalBroadcastManager.getInstance(mContext).registerReceiver(RetrunSetPGAReceiver, new IntentFilter(ISCNIRScanSDK.SET_PGA_COMPLETE));
         LocalBroadcastManager.getInstance(mContext).registerReceiver(RetrunSetScanRepeatsReceiver, new IntentFilter(ISCNIRScanSDK.SET_SCANREPEATS_COMPLETE));
         //endregion
+
+
+        // 在我们的这个位置的话创建我们的数组
+        Intent intent=getIntent();
+        String token=intent.getStringExtra("token");
+        String url = "http://211.82.95.146:5005/category";
+        final List<String> item = new ArrayList<String>();
+        OkHttpClientUtil.get(url,token).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.d("TAG", "onFailure: ");
+            }
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                String json =response.body().string();
+                if(json.indexOf("category") != -1) {
+                    JSONArray jsonArray = JSONArray.parseArray(json);
+                    for(int i=0;i<jsonArray.size();i++) {
+                        item.add(jsonArray.getJSONObject(i).get("category").toString());
+                    }
+                    System.out.println(item);
+                }
+                @SuppressLint("ResourceType")
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(mContext,android.R.layout.simple_spinner_item,item);
+                // 设置我们的数组下拉时的选项的样式
+                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                // 将我们的适配器和我们的下拉列表框关联起来
+                Spinner spinner = (Spinner) findViewById(R.id.spinner);
+                spinner.setAdapter(adapter);
+                System.out.println("=======================");
+                System.out.println(item);
+            }
+        });
+
+//        System.out.println("--------------------");
+//        System.out.println(item);
+//        // 然后的话创建一个我们的一个数组适配器并且的话这个数组适配器使我们的字符串类型的
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, item);
+//        // 设置我们的数组下拉时的选项的样式
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        // 将我们的适配器和我们的下拉列表框关联起来
+//        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+//        spinner.setAdapter(adapter);
+
     }
     private Button.OnClickListener Continuous_Scan_Stop_Click = new Button.OnClickListener()
     {
@@ -718,8 +776,11 @@ public class ScanViewActivity extends Activity {
                 barProgressDialog.dismiss();
                 mMenu.findItem(R.id.action_settings).setEnabled(true);
                 storeStringPref(mContext, ISCNIRScanSDK.SharedPreferencesKeys.scanConfiguration, ISCNIRScanSDK.scanConf.getConfigName());
-                tv_normal_scan_conf.setText(activeConf.getConfigName());
-                tv_manual_scan_conf.setText(activeConf.getConfigName());
+                if(null != activeConf){
+                    tv_normal_scan_conf.setText(activeConf.getConfigName());
+                    tv_manual_scan_conf.setText(activeConf.getConfigName());
+                }
+
                 if(downloadspecFlag ==false)
                 {
                     //Get spectrum calibration coefficient
@@ -2057,6 +2118,14 @@ public class ScanViewActivity extends Activity {
         }
     };
 
+    private Button.OnClickListener Button_Scan_Report_Click = new Button.OnClickListener()
+    {
+        @Override
+        public void onClick(View view) {
+            showDialog();
+        }
+    };
+
     /**
      * %%发送广播开始扫描将通过ScanStartedReceiver通知扫描（应调用PerformScan）
      * Send broadcast  START_SCAN will  through ScanStartedReceiver  to notify scanning(PerformScan should be called)
@@ -2652,12 +2721,39 @@ public class ScanViewActivity extends Activity {
             }
             Log.d("data","1231321");
 
-            for(String[] s:data) {
-                System.out.println(Arrays.toString(s));
-               /* for(String string:s) {
+//            String url = "http://211.82.95.146:5005/predict";
+//            Predict predict = new Predict();
+//            predict.setCategory("");
+//            predict.setAbsorbance(data.toArray());
+//            Intent intent=getIntent();
+//            String token=intent.getStringExtra("token");
+//            String json =  JSON.toJSONString(predict);
+//            System.out.println("===============");
+//            System.out.println(json);
+//            Call call = OkHttpClientUtil.postJSON(url,json,token);
+//            call.enqueue(new Callback() {
+//                @Override
+//                public void onFailure(Call call, IOException e) {
+//                    Log.d("TAG", "onFailure: ");
+//                    Looper.prepare();
+//                    Toast.makeText(ScanViewActivity.this,"连接服务器失败!",Toast.LENGTH_SHORT).show();
+//                    Looper.loop();
+//                }
+//                @Override
+//                public void onResponse(Call call, Response response) throws IOException {
+//                    String json =response.body().string();
+//                    System.out.println("--------------------------------------");
+//                    System.out.println(json);
+//                }
+//            });
+//
+//            for(String[] s:data) {
+//                System.out.println(Arrays.toString(s));
+//               /* for(String string:s) {
+//
+//                }*/
+//            }
 
-                }*/
-            }
             writer.writeAll(data);
             writer.close();
         } catch (IOException e) {
@@ -4004,6 +4100,71 @@ public class ScanViewActivity extends Activity {
         public void onReceive(Context context, Intent intent) {
             //Complete set scan repeats
         }
+    }
+
+    private void showDialog(){
+        String arr = "[\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"pH值\",\r\n" +
+                "        \"value\": 6.826282878386407\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"总氮\",\r\n" +
+                "        \"value\": 0.4701973711281517\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"总磷\",\r\n" +
+                "        \"value\": 0.2915077827928501\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"总钾\",\r\n" +
+                "        \"value\": 0.16019686701584804\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"有效磷\",\r\n" +
+                "        \"value\": 0.14632631406481952\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"有效钾\",\r\n" +
+                "        \"value\": 0.14786208933682482\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"有机质\",\r\n" +
+                "        \"value\": 6.250832102931484\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"硝态氮\",\r\n" +
+                "        \"value\": 0.05673178993761273\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"酰胺氮\",\r\n" +
+                "        \"value\": 0.29181126323124545\r\n" +
+                "    },\r\n" +
+                "    {\r\n" +
+                "        \"name\": \"铵态氮\",\r\n" +
+                "        \"value\": 0.09694305569251074\r\n" +
+                "    }\r\n" +
+                "]";
+        JSONArray ja = JSONArray.parseArray(arr);
+        String v = "";
+        for(int i =0; i<ja.size();i++) {
+            v += ja.getJSONObject(i).get("name")+"："+ja.getJSONObject(i).get("value")+" \n";
+        }
+
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setIcon(R.drawable.led_g);
+        builder.setTitle("预测");
+        builder.setMessage(v);
+        builder.setPositiveButton("关闭",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+        AlertDialog dialog=builder.create();
+        dialog.show();
+
     }
     //endregion
 }

@@ -119,6 +119,7 @@
      <string name="serial_sn">Nano SN</string>
 
      <string name="scan">Scan</string>
+    <string name="report">Report</string>
      <string name="prefix">Filename Prefix</string>
      <string name="data">Data</string>
      <string name="nano">Nano</string>
@@ -126,6 +127,7 @@
      <string name="save_to_android">Save to Android Device?</string>
      <string name="cont_scan">Continuous Scan?</string>
      <string name="scan_conf">Scan Configuration</string>
+     <string name="scan_type">Scan Type</string>
      <string name="col_1">Column 1</string>
      <string name="hadamard">Hadamard</string>
      <string name="cont_scan_stop">Stop Continuous Scan</string>
