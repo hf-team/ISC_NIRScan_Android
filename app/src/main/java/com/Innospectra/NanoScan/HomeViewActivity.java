@@ -19,8 +19,8 @@ import android.widget.ImageButton;
 
 public class HomeViewActivity  extends Activity {
     private static Context mContext;
-    private ImageButton main_connect;
-    private ImageButton main_info;
+    private Button main_connect;
+//    private ImageButton main_info;
     private ImageButton main_setting;
     private static final int REQUEST_WRITE_STORAGE = 112;
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,12 +45,12 @@ public class HomeViewActivity  extends Activity {
 
     private void initComponent()
     {
-        main_connect = (ImageButton)findViewById(R.id.main_connect);
-        main_info = (ImageButton)findViewById(R.id.main_info);
+        main_connect = findViewById(R.id.main_connect);
+//        main_info = (ImageButton)findViewById(R.id.main_info);
         main_setting = (ImageButton)findViewById(R.id.main_setting);
 
         main_connect.setOnClickListener(main_connect_listenser);
-        main_info.setOnClickListener(main_info_listenser);
+//        main_info.setOnClickListener(main_info_listenser);
         main_setting.setOnClickListener(main_setting_listenser);
     }
 

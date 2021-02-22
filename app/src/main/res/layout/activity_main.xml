@@ -10,11 +10,11 @@
     >
 
     <ImageView
-        android:layout_width="68dp"
-        android:layout_height="68dp"
+        android:layout_width="450dp"
+        android:layout_height="225dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="48dp"
-        android:src="@drawable/yh" />
+        android:src="@drawable/login" />
     <EditText
         android:layout_width="320dp"
         android:layout_height="48dp"

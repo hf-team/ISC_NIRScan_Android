@@ -6,23 +6,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="773dp"
-        android:layout_marginEnd="@dimen/dip8"
-        android:layout_marginStart="@dimen/dip8"
-        android:layout_weight="1">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/home" />
+    <Button
+        android:id="@+id/main_connect"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:background="#44A348"
+        android:text="@string/text_home"
+        android:textColor="#F6F0F0"
+        android:textSize="20dp"/>
 
-        <ImageButton
-            android:id="@+id/main_connect"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="31dp"
-            android:background="#00000000"
-            android:src="@drawable/scan_flatx_isc" />
-    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/rl_graph_list"
@@ -34,7 +35,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <ImageButton
+        <!--<ImageButton
             android:id="@+id/main_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +43,7 @@
             android:layout_alignTop="@+id/main_setting"
             android:layout_marginStart="22dp"
             android:background="#00000000"
-            android:src="@drawable/info_flatx" />
+            android:src="@drawable/info_flatx" />-->
 
         <ImageButton
             android:id="@+id/main_setting"
