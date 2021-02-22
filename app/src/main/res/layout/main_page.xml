@@ -1,0 +1,59 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="773dp"
+        android:layout_marginEnd="@dimen/dip8"
+        android:layout_marginStart="@dimen/dip8"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/main_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="31dp"
+            android:background="#00000000"
+            android:src="@drawable/scan_flatx_isc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_graph_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageButton
+            android:id="@+id/main_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/main_setting"
+            android:layout_marginStart="22dp"
+            android:background="#00000000"
+            android:src="@drawable/info_flatx" />
+
+        <ImageButton
+            android:id="@+id/main_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginEnd="15dp"
+            android:background="#00000000"
+            android:src="@drawable/setting_flatx" />
+    </RelativeLayout>
+
+</LinearLayout>

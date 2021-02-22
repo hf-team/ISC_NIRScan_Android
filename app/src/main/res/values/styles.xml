@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorAccent">@color/red</item>
+        <item name="android:colorFocusedHighlight">@color/red</item>
+        <item name="android:colorControlActivated">@color/red</item>
+        <item name="android:colorControlNormal">@color/red</item>
+        <item name="android:navigationBarColor">@color/red</item>
+        <item name="android:color">@color/red</item>
+        <item name="android:colorPrimary">@color/red</item>
+    </style>
+
+</resources>

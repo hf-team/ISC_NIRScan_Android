@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ISCSDK-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fabcb8dbe30359bb548c5ce34ed9a/ISCSDK-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fabcb8dbe30359bb548c5ce34ed9a/ISCSDK-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fabcb8dbe30359bb548c5ce34ed9a/ISCSDK-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
