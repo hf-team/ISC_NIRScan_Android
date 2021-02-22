@@ -28,6 +28,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
+import android.os.Message;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.PagerAdapter;
@@ -128,7 +129,7 @@ public class ScanViewActivity extends Activity {
     private Menu mMenu;
 
     private ViewPager mViewPager;
-    private String GraphLabel = "简·农";
+    private String GraphLabel = "智农宝";
     private ArrayList<String> mXValues;
     private ArrayList<Entry> mIntensityFloat;
     private ArrayList<Entry> mAbsorbanceFloat;
@@ -2182,12 +2183,13 @@ public class ScanViewActivity extends Activity {
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 if(response.code()  == 200) {
+
                     predictRetVal = response.body().string();
                     isReqSuccess = true;
-                    setReportBtnStatus(true, "Report");
-                    setScanBtnStatus(true, "Scan&Predict");
-                    calProgress.setVisibility(View.GONE);
-                    progressBarinsideText.setVisibility(View.GONE);
+                    Message msg = Message.obtain();
+                    msg.what = 1;
+                    handler.sendMessage(msg);
+
                 }
                 else{
                     Looper.prepare();
@@ -2202,8 +2204,26 @@ public class ScanViewActivity extends Activity {
         });
     }
 
+
+    private Handler handler = new Handler() {
+
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+
+            switch (msg.what) {
+                case 1:
+                    setReportBtnStatus(true, "Report");
+                    setScanBtnStatus(true, "Scan&Predict");
+                    calProgress.setVisibility(View.GONE);
+                    progressBarinsideText.setVisibility(View.GONE);
+                    break;
+            }
+        }
+    };
     // 20210207 zhaozz: 设置report按钮的状态
     private void setReportBtnStatus(boolean flag, String content) {
+
         if (flag) {
             btn_report.setClickable(true);
             btn_report.setBackgroundColor(ContextCompat.getColor(mContext, R.color.red));
@@ -4202,48 +4222,6 @@ public class ScanViewActivity extends Activity {
     }
 
     private void showDialog(String arr){
-//        String arr = "[\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"pH值\",\r\n" +
-//                "        \"value\": 6.826282878386407\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"总氮\",\r\n" +
-//                "        \"value\": 0.4701973711281517\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"总磷\",\r\n" +
-//                "        \"value\": 0.2915077827928501\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"总钾\",\r\n" +
-//                "        \"value\": 0.16019686701584804\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"有效磷\",\r\n" +
-//                "        \"value\": 0.14632631406481952\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"有效钾\",\r\n" +
-//                "        \"value\": 0.14786208933682482\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"有机质\",\r\n" +
-//                "        \"value\": 6.250832102931484\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"硝态氮\",\r\n" +
-//                "        \"value\": 0.05673178993761273\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"酰胺氮\",\r\n" +
-//                "        \"value\": 0.29181126323124545\r\n" +
-//                "    },\r\n" +
-//                "    {\r\n" +
-//                "        \"name\": \"铵态氮\",\r\n" +
-//                "        \"value\": 0.09694305569251074\r\n" +
-//                "    }\r\n" +
-//                "]";
         JSONArray ja = JSONArray.parseArray(arr);
         String v = "";
         for(int i =0; i<ja.size();i++) {
@@ -4252,7 +4230,7 @@ public class ScanViewActivity extends Activity {
 
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.led_g);
-        builder.setTitle("预测1");
+        builder.setTitle("预测");
         builder.setMessage(v);
         builder.setPositiveButton("关闭",
                 new DialogInterface.OnClickListener() {
