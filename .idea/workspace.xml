@@ -26,21 +26,30 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ISC_NIRScan_Android.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ISC_NIRScan_Android.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/Innospectra/NanoScan/ScanViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/Innospectra/NanoScan/ScanViewActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[35c0ae28]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,11 +77,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="35c0ae28" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-22T08:46:28.105Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-24T05:33:02.207Z" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="35c0ae28" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="Pixel_4_XL_API_30" />
+    <property name="android-custom-viewC:/GitHub/ISC_NIRScan_Android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java_SELECTED" value="Chart" />
+    <property name="android-custom-viewC:/GitHub/ISC_NIRScan_Android/app/src/main/java/com/Innospectra/NanoScan/ScanViewActivity.java_SELECTED" value="NoScrollViewPager" />
     <property name="android-custom-viewC:/ISC_NIRScan_Android-master/app/src/main/java/com/baoyz/swipemenulistview/SwipeMenuLayout.java_SELECTED" value="SwipeMenuLayout" />
     <property name="android-custom-viewC:/ISC_NIRScan_Android-master/app/src/main/java/com/baoyz/swipemenulistview/SwipeMenuListView.java_SELECTED" value="SwipeMenuListView" />
     <property name="android-custom-viewC:/Users/Administrator/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
@@ -80,7 +92,9 @@
     <property name="android-custom-viewC:/Users/Administrator/AppData/Local/Android/Sdk/sources/android-30/android/widget/Button.java_SELECTED" value="Button" />
     <property name="android-custom-viewC:/Users/HFGA/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/GitHub/ISC_NIRScan_Android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/GitHub/ISC_NIRScan_Android/app/src/main/java/com/Innospectra/NanoScan/ScanViewActivity.java_selected" value="" />
     <property name="multi-representation-previewC:/ISC_NIRScan_Android-master/app/src/main/java/com/baoyz/swipemenulistview/SwipeMenuLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/ISC_NIRScan_Android-master/app/src/main/java/com/baoyz/swipemenulistview/SwipeMenuListView.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Administrator/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
@@ -90,7 +104,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -191,24 +205,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="250" key="#PSD" timestamp="1612667190221">
+    <state x="477" y="250" key="#PSD" timestamp="1614136408130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="250" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1612667190221" />
-    <state x="656" y="102" key="#app" timestamp="1612663845505">
+    <state x="477" y="250" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1614136408130" />
+    <state x="656" y="102" key="#app" timestamp="1614137369170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="102" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1612663845505" />
-    <state x="211" y="129" width="1452" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613972072994">
+    <state x="656" y="102" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1614137369170" />
+    <state x="211" y="129" width="1452" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614137288527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="211" y="129" width="1452" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613972072994" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1613971831473">
+    <state x="211" y="129" width="1452" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614137288527" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1614145079777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1613971831473" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1614145079777" />
     <state x="123" y="124" width="2315" height="1153" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1612927072352" />
     <state x="782" y="340" key="FileChooserDialogImpl" timestamp="1613971363598">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -251,24 +266,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613979500321" />
-    <state x="461" y="150" width="1228" height="739" key="SettingsEditor" timestamp="1613963801834">
+    <state x="461" y="150" width="1228" height="739" key="SettingsEditor" timestamp="1614136108273">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="150" width="1228" height="739" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613963801834" />
+    <state x="461" y="150" width="1228" height="739" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614136108273" />
     <state x="615" y="202" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1612927080033" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1613982011971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613982011971" />
-    <state x="662" y="327" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1613963967035">
+    <state x="662" y="327" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1614144667228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="327" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613963967035" />
+    <state x="662" y="327" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614144667228" />
     <state x="883" y="440" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1612927027192" />
-    <state x="1027" y="151" width="782" height="804" key="find.popup" timestamp="1613983553900">
+    <state x="753" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614145079747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="151" width="782" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613983553900" />
+    <state x="753" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614145079747" />
+    <state x="688" y="225" width="782" height="804" key="find.popup" timestamp="1614158814322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="225" width="782" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614158814322" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612767725509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

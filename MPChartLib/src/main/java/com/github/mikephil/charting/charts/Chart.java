@@ -143,7 +143,7 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
     /**
      * text that is displayed when the chart is empty
      */
-    private String mNoDataText = "No chart data available.";
+    private String mNoDataText = "暂无可视化数据.";
 
     /**
      * Gesture listener for custom callbacks when making gestures on the chart.

@@ -6,6 +6,12 @@
     <string name="remember_password">请输入密码</string>
     <string name="text_login">登录</string>
     <string name="text_home">开始扫描</string>
+
+    <string name="text_scanpredict">扫描预测</string>
+    <string name="text_execing">正在扫描……</string>
+    <string name="text_predicting">正在预测……</string>
+    <string name="text_report">查看报告</string>
+
     <string name="action_info">Info</string>
     <string name="action_settings">Settings</string>
     <string name="action_scan">Scan</string>
@@ -39,20 +45,20 @@
      <string name="spatial_freq">Spatial Freq</string>
      <string name="set_nano">我的设备</string>
      <string name="clear_nano">解绑设备</string>
-     <string name="go">Go!</string>
-     <string name="forget">Forget</string>
+     <string name="go">查看</string>
+     <string name="forget">清除</string>
      <string name="device_filter">设备过滤</string>
 
      <string name="title_activity_graph">Graph</string>
 
      <string name="reflectance">Reflectance</string>
      <string name="intensity">Intensity</string>
-     <string name="absorbance">Absorbance</string>
+     <string name="absorbance">吸光度</string>
      <string name="reference_tab">Reference</string>
 
      <string-array name="graph_tab_index">
          <item>Reflectance</item>
-         <item>Absorbance</item>
+         <item>吸光度</item>
          <item>Intensity</item>
          <item>Reference</item>
      </string-array>
@@ -69,9 +75,9 @@
      <string name="out_of_spec_aspirin">out_of_spec_aspirin</string>
 
      <string name="delete">Delete</string>
-     <string name="ok">OK</string>
-     <string name="not_connected_title">Not Connected</string>
-     <string name="not_connected_message">Ensure Bluetooth is powered on your Android device and your Nano, then tap the Scan button on the main view.</string>
+     <string name="ok">确定</string>
+     <string name="not_connected_title">设备未连接</string>
+     <string name="not_connected_message">请确认本机和扫描设备蓝牙已打开后重试</string><!--Ensure Bluetooth is powered on your Android device and your Nano, then tap the Scan button on the main view-->
      <string name="yes_i_know">Yes, I known</string>
 
      <string name="battery">Battery</string>
@@ -99,9 +105,9 @@
      <string name="version">v%1$s (%2$d)</string>
 
      <string-array name="configure_options">
-         <item>Device Information</item>
-         <item>Device Status</item>
-         <item>Scan Configurations</item>
+         <item>设备信息</item>
+         <item>设备状态</item>
+         <item>扫描配置</item>
      </string-array>
 
      <string name="range_start_value">%1$d nm</string>
@@ -118,8 +124,8 @@
      <string name="number_repeats">Number of Repeats</string>
      <string name="serial_sn">Nano SN</string>
 
-     <string name="scan">Scan</string>
-     <string name="report">Report</string>
+     <string name="scan">执行扫描</string>
+     <string name="report">查看报告</string>
      <string name="prefix">Filename Prefix</string>
      <string name="data">Data</string>
      <string name="nano">Nano</string>
@@ -127,7 +133,7 @@
      <string name="save_to_android">Save to Android Device?</string>
      <string name="cont_scan">Continuous Scan?</string>
      <string name="scan_conf">Scan Configuration</string>
-     <string name="scan_type">Predict Type</string>
+     <string name="scan_type">预测类型</string>
      <string name="col_1">Column 1</string>
      <string name="hadamard">Hadamard</string>
      <string name="cont_scan_stop">Stop Continuous Scan</string>
@@ -144,14 +150,14 @@
      <string name="humid_value">%1$s%%RH</string>
 
      <string name="stored_configurations">Stored Configurations</string>
-     <string name="reading_configurations">Reading Scan Configurations…</string>
+     <string name="reading_configurations">正在读取扫描配置……</string>
      <string name="stored_scan_data">Stored Scan Data</string>
      <string name="reading_sd_card">Reading SD Card…</string>
      <string name="adding_configurations">Adding Configurations</string>
     <string name="scan_configurations">Scan Configurations</string>
 
      <string name="time_format_at">\'at\'</string>
-     <string name="new_scan">New Scan</string>
+     <string name="new_scan">扫描</string>
      <string name="newScan">NewScan</string>
      <string name="nano_disconnected">"Nano Disconnected!"</string>
      <string name="configure">Configure</string>
@@ -164,13 +170,13 @@
      <string name="update_thresholds">Update Thresholds</string>
      <string name="scanning">Scanning…</string>
 
-     <string name="dl_ref_cal">Downloading Ref Cal</string>
-     <string name="dl_cal_matrix">Downloading Cal Matrix</string>
-     <string name="select_nano">Select Device</string>
-     <string name="nano_confirmation_title">Are You Sure?</string>
-     <string name="nano_confirmation_msg">Are you sure you want set the Nano with MAC address: %1$s, as your primary device?</string>
-     <string name="nano_forget_msg">Are you sure you want clear the Nano with MAC address: %1$s, as your primary device?</string>
-     <string name="cancel">Cancel</string>
+     <string name="dl_ref_cal">正在下载参比……</string>
+     <string name="dl_cal_matrix">正在下载建模矩阵……</string>
+     <string name="select_nano">选择设备</string>
+     <string name="nano_confirmation_title">确认信息</string>
+     <string name="nano_confirmation_msg">请确认是否设置扫描设备（MAC地址: %1$s）作为您的私人设备？</string>
+     <string name="nano_forget_msg">请确认是否清除扫描设备(MAC地址: %1$s)？</string>
+     <string name="cancel">取消</string>
      <string name="no_sd_scans">No Stored Scans on SD Card!</string>
 
      <string name="desc_icon">App icon</string>

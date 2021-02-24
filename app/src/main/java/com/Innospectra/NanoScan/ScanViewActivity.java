@@ -33,11 +33,13 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -115,6 +117,8 @@ import static com.Innospectra.NanoScan.DeviceStatusViewActivity.GetLampTimeStrin
  *
  * @author collinmast
  */
+
+
 public class ScanViewActivity extends Activity {
     //20210207 zhaozz: 增加保存预测返回值的全局变量
     private String predictRetVal;
@@ -127,6 +131,28 @@ public class ScanViewActivity extends Activity {
     private TextView progressBarinsideText;
     private AlertDialog alertDialog;
     private Menu mMenu;
+
+
+//    public class NoScrollViewPager extends ViewPager {
+//        public NoScrollViewPager(Context context, AttributeSet attrs) {
+//            super(context, attrs);
+//        }
+//
+//        public NoScrollViewPager(Context context) {
+//            super(context);
+//        }
+//
+//        // 20210224 zhaozz: 增加以用于禁止左右滑动
+//        @Override
+//        public boolean onInterceptTouchEvent(MotionEvent ev) {
+//            return false;
+//        }
+//
+//        @Override
+//        public boolean onTouchEvent(MotionEvent ev) {
+//            return false;
+//        }
+//    }
 
     private ViewPager mViewPager;
     private String GraphLabel = "智农宝";
@@ -358,11 +384,11 @@ public class ScanViewActivity extends Activity {
         filePrefix = (EditText) findViewById(R.id.et_prefix);
         btn_scan = (Button) findViewById(R.id.btn_scan);
 
-        setScanBtnStatus(false, "Scan&Predict");
+        setScanBtnStatus(false, getResources().getString(R.string.text_scanpredict));
         btn_scan.setOnClickListener(Button_Scan_Click);
 
         btn_report = (Button) findViewById(R.id.btn_report);
-        setReportBtnStatus(false, "Report");
+        setReportBtnStatus(false);
         btn_report.setOnClickListener(Button_Scan_Report_Click);
 
 
@@ -461,6 +487,11 @@ public class ScanViewActivity extends Activity {
             btn_normal.setBackgroundColor(0xFF0099CC);
             btn_quickset.setBackgroundColor(0xFF0099CC);
             Current_Scan_Method = ScanMethod.Normal;
+
+//            ActionBar ab = getActionBar();
+//            if (ab != null) {
+//                mViewPager.setCurrentItem(2);
+//            }
         }
         else {
             //TODO:恢复管理员状态，正常应该不用操作
@@ -493,7 +524,7 @@ public class ScanViewActivity extends Activity {
             mBluetoothLeScanner = mBluetoothAdapter.getBluetoothLeScanner();
             if(mBluetoothLeScanner == null){
                 finish();
-                Toast.makeText(ScanViewActivity.this, "Please ensure Bluetooth is enabled and try again", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ScanViewActivity.this, "请确认蓝牙已打开并重试", Toast.LENGTH_SHORT).show();//Please ensure Bluetooth is enabled and try again
             }
             mHandler = new Handler();
             if (getStringPref(mContext, ISCNIRScanSDK.SharedPreferencesKeys.preferredDevice, null) != null) {
@@ -1103,6 +1134,10 @@ public class ScanViewActivity extends Activity {
         };
     }
     //endregion
+
+    //20210224 zhaozz: 尝试增加标记位区分管理员和普通用户的视图区别
+    private  boolean isAdminRole = false;
+
     //region title bar
     /**
      * Initial chart view pager and title bar event
@@ -1149,12 +1184,18 @@ public class ScanViewActivity extends Activity {
                 public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
                 }
             };
-            // Add 3 tabs, specifying the tab's text and TabListener
-            for (int i = 0; i < 4; i++) {
-                ab.addTab(
-                        ab.newTab()
-                                .setText(getResources().getStringArray(R.array.graph_tab_index)[i])
-                                .setTabListener(tl));
+            // 当为管理员登陆时，增加4个标签和绑定监听，否则仅增加一个标签
+            if (isAdminRole) {
+                // Add 3 tabs, specifying the tab's text and TabListener
+                for (int i = 0; i < 4; i++) {
+                    ab.addTab(
+                            ab.newTab()
+                                    .setText(getResources().getStringArray(R.array.graph_tab_index)[i])
+                                    .setTabListener(tl));
+                }
+            }
+            else{
+                ab.addTab(ab.newTab().setText(getResources().getStringArray(R.array.graph_tab_index)[1]).setTabListener(tl));
             }
         }
     }
@@ -2072,8 +2113,8 @@ public class ScanViewActivity extends Activity {
         @Override
         public void onClick(View view) {
             // 202010207 zhaozz:扫描时控制扫描按钮的状态
-            setScanBtnStatus(false, "Scanning&Predicting……");
-            setReportBtnStatus(false, "Report");
+            setScanBtnStatus(false, getResources().getString(R.string.text_execing));
+            setReportBtnStatus(false);
             storeStringPref(mContext, ISCNIRScanSDK.SharedPreferencesKeys.prefix, filePrefix.getText().toString());
             long delaytime = 300;
             if(Current_Scan_Method == ScanMethod.Manual)
@@ -2091,7 +2132,7 @@ public class ScanViewActivity extends Activity {
                 else if(toggle_button_manual_scan_mode.getText().toString().equals("On"))
                 {
                     DisableAllComponent();
-                    setScanBtnStatus(false, "Scanning&Predicting……");
+                    setScanBtnStatus(false, getResources().getString(R.string.text_execing));
                     calProgress.setVisibility(View.VISIBLE);
                     PerformScan(delaytime);
                 }
@@ -2140,7 +2181,7 @@ public class ScanViewActivity extends Activity {
             {
                 DisableAllComponent();
                 calProgress.setVisibility(View.VISIBLE);
-                setScanBtnStatus(false, "Scanning&Predicting……");
+                setScanBtnStatus(false, getResources().getString(R.string.text_execing));
             }
         }
     };
@@ -2148,6 +2189,7 @@ public class ScanViewActivity extends Activity {
     // 20210207 zhaozz: 预测方法
     private void processPredictRequest()
     {
+        setScanBtnStatus(false, getResources().getString(R.string.text_predicting));
         // 20210208 zhaozz:尝试在预测过程中显示等待动画，但是显示不出，有待寻找原因，若还不能，可删除
         calProgress = (ProgressBar) findViewById(R.id.calProgress);
         calProgress.setVisibility(View.VISIBLE);
@@ -2174,8 +2216,8 @@ public class ScanViewActivity extends Activity {
                 Looper.prepare();
                 Toast.makeText(ScanViewActivity.this, e.getMessage().toString(), Toast.LENGTH_SHORT).show();
                 Looper.loop();
-                setScanBtnStatus(true, "Scan&Predict");
-                setReportBtnStatus(false, "Report");
+                setScanBtnStatus(false, getResources().getString(R.string.text_scanpredict));
+                setReportBtnStatus(false);
                 calProgress.setVisibility(View.GONE);
                 progressBarinsideText.setVisibility(View.GONE);
             }
@@ -2183,47 +2225,51 @@ public class ScanViewActivity extends Activity {
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 if(response.code()  == 200) {
-
                     predictRetVal = response.body().string();
                     isReqSuccess = true;
                     Message msg = Message.obtain();
                     msg.what = 1;
                     handler.sendMessage(msg);
-
                 }
                 else{
                     Looper.prepare();
-                    Toast.makeText(ScanViewActivity.this, response.body().string(), Toast.LENGTH_SHORT).show();
-                    setReportBtnStatus(false, "Report");
-                    setScanBtnStatus(true, "Scan&Predict");
-                    calProgress.setVisibility(View.GONE);
-                    progressBarinsideText.setVisibility(View.GONE);
+                    Toast.makeText(ScanViewActivity.this, "请求失败："+ response.body().string(), Toast.LENGTH_SHORT).show();
                     Looper.loop();
+                    Message msg = Message.obtain();
+                    msg.what = 2;
+                    handler.sendMessage(msg);
                 }
             }
         });
     }
 
 
-    private Handler handler = new Handler() {
-
+    // 定义子线程操作UI的委托
+    private Handler handler= new Handler() {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-
             switch (msg.what) {
                 case 1:
-                    setReportBtnStatus(true, "Report");
-                    setScanBtnStatus(true, "Scan&Predict");
+                    setReportBtnStatus(true);
+                    setScanBtnStatus(true, getResources().getString(R.string.text_scanpredict));
                     calProgress.setVisibility(View.GONE);
                     progressBarinsideText.setVisibility(View.GONE);
+                    break;
+                case 2:
+                    setReportBtnStatus(false);
+                    setScanBtnStatus(true, getResources().getString(R.string.text_scanpredict));
+                    calProgress.setVisibility(View.GONE);
+                    progressBarinsideText.setVisibility(View.GONE);
+                    break;
+                default:
                     break;
             }
         }
     };
-    // 20210207 zhaozz: 设置report按钮的状态
-    private void setReportBtnStatus(boolean flag, String content) {
 
+    // 20210207 zhaozz: 设置report按钮的状态
+    private void setReportBtnStatus(boolean flag) {
         if (flag) {
             btn_report.setClickable(true);
             btn_report.setBackgroundColor(ContextCompat.getColor(mContext, R.color.red));
@@ -2231,8 +2277,9 @@ public class ScanViewActivity extends Activity {
             btn_report.setClickable(false);
             btn_report.setBackgroundColor(ContextCompat.getColor(mContext, R.color.btn_unavailable));
         }
-        btn_report.setText(content);
+        btn_report.setText(getResources().getString(R.string.text_report));
     }
+
     // 20210207 zhaozz: 设置scan按钮的状态, 此处代码有点重复，因为还不会用引用传值
     private void setScanBtnStatus(boolean flag, String content){
         if (flag) {
@@ -2245,6 +2292,7 @@ public class ScanViewActivity extends Activity {
         btn_scan.setText(content);
     }
 
+    //点击查看报告按钮的响应事件
     private Button.OnClickListener Button_Scan_Report_Click = new Button.OnClickListener()
     {
         @Override
@@ -2257,12 +2305,6 @@ public class ScanViewActivity extends Activity {
 
     //20210207 zhaozz： 定义标记位，确认是否预测成功
     private boolean isReqSuccess = false;
-//    Handler handler= new Handler() {
-//        @Override
-//        public void handleMessage(Message msg) {
-//            super.handleMessage(msg);
-//        }
-//    };
 
     /**
      * %%发送广播开始扫描将通过ScanStartedReceiver通知扫描（应调用PerformScan）
@@ -2271,7 +2313,7 @@ public class ScanViewActivity extends Activity {
     public class ScanStartedReceiver extends BroadcastReceiver {
         public void onReceive(Context context, Intent intent) {
             calProgress.setVisibility(View.VISIBLE);
-            btn_scan.setText("Scanning&Predicting……");
+            btn_scan.setText(getResources().getString(R.string.text_execing));
         }
     }
     boolean continuous = false;
@@ -2373,14 +2415,14 @@ public class ScanViewActivity extends Activity {
                         slew = slew + activeConf.getSectionNumPatterns()[i]+"%";
                     }
                 }
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss", java.util.Locale.getDefault());
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", java.util.Locale.getDefault());
                 SimpleDateFormat filesimpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss", java.util.Locale.getDefault());
                 String ts = simpleDateFormat.format(new Date());
                 CurrentTime = filesimpleDateFormat.format(new Date());
                 ActionBar ab = getActionBar();
                 if (ab != null) {
                     if (filePrefix.getText().toString().equals("")) {
-                        ab.setTitle("ISC" + ts);
+                        ab.setTitle("扫描时间：" + ts);
                     } else {
                         ab.setTitle(filePrefix.getText().toString() + ts);
                     }
@@ -2467,7 +2509,6 @@ public class ScanViewActivity extends Activity {
         //------------------------------------------------------------------------------------------------------------
         calProgress.setVisibility(View.GONE);
         progressBarinsideText.setVisibility(View.GONE);
-        btn_scan.setText("Scanning&Predicting……");
         EnableAllComponent();
         Disable_Stop_Continous_button();
         //Tiva version <2.1.0.67
@@ -2515,7 +2556,6 @@ public class ScanViewActivity extends Activity {
             continuous_count ++;
             calProgress.setVisibility(View.VISIBLE);
             progressBarinsideText.setVisibility(View.VISIBLE);
-            btn_scan.setText(getString(R.string.scanning));
             DisableAllComponent();
             Enable_Stop_Continous_button();
             try {
@@ -2781,7 +2821,7 @@ public class ScanViewActivity extends Activity {
             writer = new CSVWriter(new FileWriter(csvOS), ',', CSVWriter.NO_QUOTE_CHARACTER);
             List<String[]> data = new ArrayList<String[]>();
 
-            //20210207 zhaozz: 增加测试代码
+            //20210207 zhaozz: 增加存储absorbance的代码
            absorbanceList = new ArrayList<Double>();
 
             String buf = "";
@@ -2806,7 +2846,7 @@ public class ScanViewActivity extends Activity {
                 //float reflect = (float) Scan_Spectrum_Data.getUncalibratedIntensity()[csvIndex] / Scan_Spectrum_Data.getIntensity()[csvIndex];
                 float reference = (float) Scan_Spectrum_Data.getIntensity()[csvIndex];
                 data.add(new String[]{String.valueOf(waves), String.valueOf(absorb),String.valueOf(reference), String.valueOf(intens)});
-                //20210207 zhaozz: 增加测试代码
+                //20210207 zhaozz: 增加存储absorbance的代码
                 if(csvIndex>=10 && csvIndex<210){
                     double absorb_mat = (-1) * (double) Math.log10((double) scanResults.getUncalibratedIntensity()[csvIndex] / (double) scanResults.getIntensity()[csvIndex]);
                     absorbanceList.add(absorb_mat);
@@ -2872,7 +2912,7 @@ public class ScanViewActivity extends Activity {
             writer.writeAll(data);
             writer.close();
 
-            //2021 zhaozz： 扫描完成时，设置检测按钮可用
+            //2021 zhaozz： 扫描完成后执行预测过程
             processPredictRequest();
         } catch (IOException e) {
             e.printStackTrace();
@@ -2885,8 +2925,9 @@ public class ScanViewActivity extends Activity {
      * Pager enum to control tab tile and layout resource
      */
     public enum CustomPagerEnum {
-        REFLECTANCE(R.string.reflectance, R.layout.page_graph_reflectance),
+
         ABSORBANCE(R.string.absorbance, R.layout.page_graph_absorbance),
+        REFLECTANCE(R.string.reflectance, R.layout.page_graph_reflectance),
         INTENSITY(R.string.intensity, R.layout.page_graph_intensity),
         REFERENCE(R.string.reference_tab,R.layout.page_graph_reference);
         private final int mTitleResId;
@@ -2987,11 +3028,11 @@ public class ScanViewActivity extends Activity {
                 LineChart mChart = (LineChart) layout.findViewById(R.id.lineChartAbs);
                 mChart.setDrawGridBackground(false);
 
-                // enable touch gestures
+                // enable touch gestures zzzzzzzzzzzzzz
                 mChart.setTouchEnabled(true);
 
                 // enable scaling and dragging
-                mChart.setDragEnabled(true);
+                mChart.setDragEnabled(false);
                 mChart.setScaleEnabled(true);
 
                 // if disabled, scaling can be done on x- and y-axis separately
@@ -4221,6 +4262,7 @@ public class ScanViewActivity extends Activity {
         }
     }
 
+    //  显示报告页面
     private void showDialog(String arr){
         JSONArray ja = JSONArray.parseArray(arr);
         String v = "";
