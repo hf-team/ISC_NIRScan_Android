@@ -133,6 +133,9 @@ public class ScanViewActivity extends Activity {
     private Menu mMenu;
 
 
+
+
+
 //    public class NoScrollViewPager extends ViewPager {
 //        public NoScrollViewPager(Context context, AttributeSet attrs) {
 //            super(context, attrs);
@@ -154,7 +157,7 @@ public class ScanViewActivity extends Activity {
 //        }
 //    }
 
-    private ViewPager mViewPager;
+    private NoScrollViewPager mViewPager;
     private String GraphLabel = "智农宝";
     private ArrayList<String> mXValues;
     private ArrayList<Entry> mIntensityFloat;
@@ -1151,7 +1154,7 @@ public class ScanViewActivity extends Activity {
             ab.setTitle(getString(R.string.new_scan));
             ab.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-            mViewPager = (ViewPager) findViewById(R.id.viewpager);
+            mViewPager = (NoScrollViewPager) findViewById(R.id.viewpager);
             mViewPager.setOffscreenPageLimit(2);
 
             // Create a tab listener that is called when the user changes tabs.
