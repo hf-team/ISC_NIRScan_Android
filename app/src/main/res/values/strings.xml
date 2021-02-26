@@ -6,6 +6,11 @@
     <string name="remember_password">请输入密码</string>
     <string name="text_login">登录</string>
     <string name="text_home">开始扫描</string>
+    <string name="text_connect">连接设备</string>
+    <string name="text_disconnect">解绑设备</string>
+
+    <string name="text_device">设备</string>
+    <string name="text_own">我的</string>
 
     <string name="text_scanpredict">扫描预测</string>
     <string name="text_execing">正在扫描……</string>
@@ -30,66 +35,66 @@
     </string-array>
 
     <string-array name="info_body_array">
-         <item>Learn about InnoSpectra Corp., a professional handheld spectrometers manufacturer!</item>
-         <item>Learn about InnoSpectra, TI\'s Strategic Design Partner</item>
-         <item>About License of this App</item>
-     </string-array>
+        <item>Learn about InnoSpectra Corp., a professional handheld spectrometers manufacturer!</item>
+        <item>Learn about InnoSpectra, TI\'s Strategic Design Partner</item>
+        <item>About License of this App</item>
+    </string-array>
 
-     <string-array name="info_url_array">
-         <item>http://www.ti.com/tool/dlpnirnanoevm</item>
-         <item>http://e2e.ti.com/support/dlp__mems_micro-electro-mechanical_systems/f/983</item>
-     </string-array>
+    <string-array name="info_url_array">
+        <item>http://www.ti.com/tool/dlpnirnanoevm</item>
+        <item>http://e2e.ti.com/support/dlp__mems_micro-electro-mechanical_systems/f/983</item>
+    </string-array>
 
-     <string name="temperature">Temperature</string>
-     <string name="lamptime">Total Lamp Time</string>
-     <string name="spatial_freq">Spatial Freq</string>
-     <string name="set_nano">我的设备</string>
-     <string name="clear_nano">解绑设备</string>
-     <string name="go">查看</string>
-     <string name="forget">清除</string>
-     <string name="device_filter">设备过滤</string>
+    <string name="temperature">Temperature</string>
+    <string name="lamptime">Total Lamp Time</string>
+    <string name="spatial_freq">Spatial Freq</string>
+    <string name="set_nano">我的设备</string>
+    <string name="clear_nano">解绑设备</string>
+    <string name="go">查看</string>
+    <string name="forget">清除</string>
+    <string name="device_filter">设备过滤</string>
 
-     <string name="title_activity_graph">Graph</string>
+    <string name="title_activity_graph">Graph</string>
 
-     <string name="reflectance">Reflectance</string>
-     <string name="intensity">Intensity</string>
-     <string name="absorbance">吸光度</string>
-     <string name="reference_tab">Reference</string>
+    <string name="reflectance">Reflectance</string>
+    <string name="intensity">Intensity</string>
+    <string name="absorbance">吸光度</string>
+    <string name="reference_tab">Reference</string>
 
-     <string-array name="graph_tab_index">
-         <item>Reflectance</item>
-         <item>吸光度</item>
-         <item>Intensity</item>
-         <item>Reference</item>
-     </string-array>
+    <string-array name="graph_tab_index">
+        <item>Reflectance</item>
+        <item>吸光度</item>
+        <item>Intensity</item>
+        <item>Reference</item>
+    </string-array>
 
-     <string name="aspirin">aspirin</string>
-     <string name="bc">bc</string>
-     <string name="bellpepper">bellpepper</string>
-     <string name="coconutoil">coconutoil</string>
-     <string name="coffee">coffee</string>
-     <string name="corn_starch">corn_starch</string>
-     <string name="eucerin_lotion">eucerin_lotion</string>
-     <string name="flour">flour</string>
-     <string name="glucose">glucose</string>
-     <string name="out_of_spec_aspirin">out_of_spec_aspirin</string>
+    <string name="aspirin">aspirin</string>
+    <string name="bc">bc</string>
+    <string name="bellpepper">bellpepper</string>
+    <string name="coconutoil">coconutoil</string>
+    <string name="coffee">coffee</string>
+    <string name="corn_starch">corn_starch</string>
+    <string name="eucerin_lotion">eucerin_lotion</string>
+    <string name="flour">flour</string>
+    <string name="glucose">glucose</string>
+    <string name="out_of_spec_aspirin">out_of_spec_aspirin</string>
 
-     <string name="delete">Delete</string>
-     <string name="ok">确定</string>
-     <string name="not_connected_title">设备未连接</string>
-     <string name="not_connected_message">请确认本机和扫描设备蓝牙已打开后重试</string><!--Ensure Bluetooth is powered on your Android device and your Nano, then tap the Scan button on the main view-->
-     <string name="yes_i_know">Yes, I known</string>
+    <string name="delete">Delete</string>
+    <string name="ok">确定</string>
+    <string name="not_connected_title">设备未连接</string>
+    <string name="not_connected_message">请确认本机和扫描设备蓝牙已打开后重试</string><!--Ensure Bluetooth is powered on your Android device and your Nano, then tap the Scan button on the main view-->
+    <string name="yes_i_know">Yes, I known</string>
 
-     <string name="battery">Battery</string>
-     <string name="humidity">Humidity</string>
-     <string name="device_status">Device Status</string>
-     <string name="error_status">Error Status</string>
-     <string name="temp_threshold">Temperature Threshold</string>
-     <string name="deg_c">deg C</string>
-     <string name="deg_f">deg F</string>
-     <string name="humid_threshold">Humidity Threshold</string>
-     <string name="relative_humid">% RH</string>
-     <string name="not_supported">Not Supported</string>
+    <string name="battery">Battery</string>
+    <string name="humidity">Humidity</string>
+    <string name="device_status">Device Status</string>
+    <string name="error_status">Error Status</string>
+    <string name="temp_threshold">Temperature Threshold</string>
+    <string name="deg_c">deg C</string>
+    <string name="deg_f">deg F</string>
+    <string name="humid_threshold">Humidity Threshold</string>
+    <string name="relative_humid">% RH</string>
+    <string name="not_supported">Not Supported</string>
     <string name="click">Click</string>
     <string name="clear_error">Clear Error</string>
     <string name="detail_device_status">Detailed Device Status</string>
@@ -102,186 +107,186 @@
     <string name="detail_battery_error_status">Detailed Battery Error Status</string>
     <string name="detail_system_error_status">Detailed System Error Status</string>
 
-     <string name="version">v%1$s (%2$d)</string>
+    <string name="version">v%1$s (%2$d)</string>
 
-     <string-array name="configure_options">
-         <item>设备信息</item>
-         <item>设备状态</item>
-         <item>扫描配置</item>
-     </string-array>
+    <string-array name="configure_options">
+        <item>设备信息</item>
+        <item>设备状态</item>
+        <item>扫描配置</item>
+    </string-array>
 
-     <string name="range_start_value">%1$d nm</string>
-     <string name="range_end_value">%1$d nm</string>
-     <string name="width_value">%1$d nm</string>
-     <string name="patterns_value">%1$d</string>
-     <string name="repeats_value">%1$d</string>
+    <string name="range_start_value">%1$d nm</string>
+    <string name="range_end_value">%1$d nm</string>
+    <string name="width_value">%1$d nm</string>
+    <string name="patterns_value">%1$d</string>
+    <string name="repeats_value">%1$d</string>
 
-     <string name="manufacturer">Manufacturer</string>
-     <string name="range_start">Spectral Range Start</string>
-     <string name="range_end">Spectral Range End</string>
-     <string name="width">Width</string>
-     <string name="number_patterns">Number of Patterns</string>
-     <string name="number_repeats">Number of Repeats</string>
-     <string name="serial_sn">Nano SN</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="range_start">Spectral Range Start</string>
+    <string name="range_end">Spectral Range End</string>
+    <string name="width">Width</string>
+    <string name="number_patterns">Number of Patterns</string>
+    <string name="number_repeats">Number of Repeats</string>
+    <string name="serial_sn">Nano SN</string>
 
-     <string name="scan">执行扫描</string>
-     <string name="report">查看报告</string>
-     <string name="prefix">Filename Prefix</string>
-     <string name="data">Data</string>
-     <string name="nano">Nano</string>
-     <string name="save_to_sd">Save to SD Card?</string>
-     <string name="save_to_android">Save to Android Device?</string>
-     <string name="cont_scan">Continuous Scan?</string>
-     <string name="scan_conf">Scan Configuration</string>
-     <string name="scan_type">预测类型</string>
-     <string name="col_1">Column 1</string>
-     <string name="hadamard">Hadamard</string>
-     <string name="cont_scan_stop">Stop Continuous Scan</string>
+    <string name="scan">执行扫描</string>
+    <string name="report">查看报告</string>
+    <string name="prefix">Filename Prefix</string>
+    <string name="data">Data</string>
+    <string name="nano">Nano</string>
+    <string name="save_to_sd">Save to SD Card?</string>
+    <string name="save_to_android">Save to Android Device?</string>
+    <string name="cont_scan">Continuous Scan?</string>
+    <string name="scan_conf">Scan Configuration</string>
+    <string name="scan_type">预测类型</string>
+    <string name="col_1">Column 1</string>
+    <string name="hadamard">Hadamard</string>
+    <string name="cont_scan_stop">Stop Continuous Scan</string>
 
-     <string name="model">Model Number</string>
-     <string name="serial">Serial Number</string>
-     <string name="hw_rev">Hardware Rev</string>
-     <string name="tiva_rev">Tiva Rev</string>
-     <string name="spectrum_rev">Spectrum Rev</string>
+    <string name="model">Model Number</string>
+    <string name="serial">Serial Number</string>
+    <string name="hw_rev">Hardware Rev</string>
+    <string name="tiva_rev">Tiva Rev</string>
+    <string name="spectrum_rev">Spectrum Rev</string>
 
-     <string name="batt_level_value">%1$d%%</string>
-     <string name="temp_value_c">%1$s&#x2103;</string>
-     <string name="temp_value_f">%1$s&#x2109;</string>
-     <string name="humid_value">%1$s%%RH</string>
+    <string name="batt_level_value">%1$d%%</string>
+    <string name="temp_value_c">%1$s&#x2103;</string>
+    <string name="temp_value_f">%1$s&#x2109;</string>
+    <string name="humid_value">%1$s%%RH</string>
 
-     <string name="stored_configurations">Stored Configurations</string>
-     <string name="reading_configurations">正在读取扫描配置……</string>
-     <string name="stored_scan_data">Stored Scan Data</string>
-     <string name="reading_sd_card">Reading SD Card…</string>
-     <string name="adding_configurations">Adding Configurations</string>
+    <string name="stored_configurations">Stored Configurations</string>
+    <string name="reading_configurations">正在读取扫描配置……</string>
+    <string name="stored_scan_data">Stored Scan Data</string>
+    <string name="reading_sd_card">Reading SD Card…</string>
+    <string name="adding_configurations">Adding Configurations</string>
     <string name="scan_configurations">Scan Configurations</string>
 
-     <string name="time_format_at">\'at\'</string>
-     <string name="new_scan">扫描</string>
-     <string name="newScan">NewScan</string>
-     <string name="nano_disconnected">"Nano Disconnected!"</string>
-     <string name="configure">Configure</string>
-     <string name="device_information">Device Information</string>
-     <string name="file_not_found">Could not find the file!</string>
+    <string name="time_format_at">\'at\'</string>
+    <string name="new_scan">扫描</string>
+    <string name="newScan">NewScan</string>
+    <string name="nano_disconnected">"Nano Disconnected!"</string>
+    <string name="configure">Configure</string>
+    <string name="device_information">Device Information</string>
+    <string name="file_not_found">Could not find the file!</string>
 
-     <string name="emailing">"Emailing "</string>
-     <string name="send_mail">"Send mail…"</string>
-     <string name="no_email_clients">There are no email clients installed.</string>
-     <string name="update_thresholds">Update Thresholds</string>
-     <string name="scanning">Scanning…</string>
+    <string name="emailing">"Emailing "</string>
+    <string name="send_mail">"Send mail…"</string>
+    <string name="no_email_clients">There are no email clients installed.</string>
+    <string name="update_thresholds">Update Thresholds</string>
+    <string name="scanning">Scanning…</string>
 
-     <string name="dl_ref_cal">正在下载参比……</string>
-     <string name="dl_cal_matrix">正在下载建模矩阵……</string>
-     <string name="select_nano">选择设备</string>
-     <string name="nano_confirmation_title">确认信息</string>
-     <string name="nano_confirmation_msg">请确认是否设置扫描设备（MAC地址: %1$s）作为您的私人设备？</string>
-     <string name="nano_forget_msg">请确认是否清除扫描设备(MAC地址: %1$s)？</string>
-     <string name="cancel">取消</string>
-     <string name="no_sd_scans">No Stored Scans on SD Card!</string>
+    <string name="dl_ref_cal">正在下载参比……</string>
+    <string name="dl_cal_matrix">正在下载建模矩阵……</string>
+    <string name="select_nano">选择设备</string>
+    <string name="nano_confirmation_title">确认信息</string>
+    <string name="nano_confirmation_msg">请确认是否设置扫描设备（MAC地址: %1$s）作为您的私人设备？</string>
+    <string name="nano_forget_msg">请确认是否清除扫描设备(MAC地址: %1$s)？</string>
+    <string name="cancel">取消</string>
+    <string name="no_sd_scans">No Stored Scans on SD Card!</string>
 
-     <string name="desc_icon">App icon</string>
-     <string name="desc_splash">TI, DLP, and ISC logo</string>
-     <string name="desc_info">Info icon</string>
+    <string name="desc_icon">App icon</string>
+    <string name="desc_splash">TI, DLP, and ISC logo</string>
+    <string name="desc_info">Info icon</string>
 
-     <string name="lamp_time">Lamp-Stable Time(ms)</string>
-     <string name="scan_mode">Manual Scan Mode</string>
-     <string name="lamp">Turn-On Lamp</string>
-     <string name="pga">Set Scan PGA</string>
-     <string name="repeat">Continuous Scan Repeats</string>
-     <string name="scan_method">Scan Method</string>
-     <string name="spec_start">Spectral Start (nm)</string>
-     <string name="spec_end">Spectral End (nm)</string>
-     <string name="scan_width">Scan Width (nm)</string>
-     <string name="res">D-Res.</string>
-     <string name="aver_scan">Average Scans (times)</string>
-     <string name="ex_time">Exposure Time (ms)</string>
-     <string name="continuous_scan_mode">Continuous Scan Mode</string>
-     <string name="scan_interval_time">Scan Interval Time (sec)</string>
-     <string name="set_value">Set all config</string>
-     <string name="section">Section</string>
-     <string name="config_index">Config Index</string>
-     <string name="serial_num">Config SerialNumber</string>
-     <string name="name">Config Name</string>
-     <string name="scan_repeat">Scan Repeats</string>
-     <string name="total_sections">Total Scan Sections</string>
-     <string name="type">Type(0:Column,1:Hadamard)</string>
-     <string name="section_exposure">Exposure(0-6): 0.635ms</string>
-     <string name="scan_width_add">Width(2-52): 2.34nm</string>
-     <string name="reference">Replace Factory Reference</string>
-     <string name="license">License</string>
-     <string name="lock_btn">Lock Button</string>
+    <string name="lamp_time">Lamp-Stable Time(ms)</string>
+    <string name="scan_mode">Manual Scan Mode</string>
+    <string name="lamp">Turn-On Lamp</string>
+    <string name="pga">Set Scan PGA</string>
+    <string name="repeat">Continuous Scan Repeats</string>
+    <string name="scan_method">Scan Method</string>
+    <string name="spec_start">Spectral Start (nm)</string>
+    <string name="spec_end">Spectral End (nm)</string>
+    <string name="scan_width">Scan Width (nm)</string>
+    <string name="res">D-Res.</string>
+    <string name="aver_scan">Average Scans (times)</string>
+    <string name="ex_time">Exposure Time (ms)</string>
+    <string name="continuous_scan_mode">Continuous Scan Mode</string>
+    <string name="scan_interval_time">Scan Interval Time (sec)</string>
+    <string name="set_value">Set all config</string>
+    <string name="section">Section</string>
+    <string name="config_index">Config Index</string>
+    <string name="serial_num">Config SerialNumber</string>
+    <string name="name">Config Name</string>
+    <string name="scan_repeat">Scan Repeats</string>
+    <string name="total_sections">Total Scan Sections</string>
+    <string name="type">Type(0:Column,1:Hadamard)</string>
+    <string name="section_exposure">Exposure(0-6): 0.635ms</string>
+    <string name="scan_width_add">Width(2-52): 2.34nm</string>
+    <string name="reference">Replace Factory Reference</string>
+    <string name="license">License</string>
+    <string name="lock_btn">Lock Button</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="activation">Activation</string>
 
     <string-array name="scan_method_array">
-         <item>Column</item>
-         <item>Hadamard</item>
-     </string-array>
+        <item>Column</item>
+        <item>Hadamard</item>
+    </string-array>
 
-     <string-array name="exposure_time">
-         <item>0.635</item>
-         <item>1.27</item>
-         <item>2.54</item>
-         <item>5.08</item>
-         <item>15.24</item>
-         <item>30.48</item>
-         <item>60.96</item>
-     </string-array>
+    <string-array name="exposure_time">
+        <item>0.635</item>
+        <item>1.27</item>
+        <item>2.54</item>
+        <item>5.08</item>
+        <item>15.24</item>
+        <item>30.48</item>
+        <item>60.96</item>
+    </string-array>
 
-     <string-array name="scan_width">
-         <item>2.34</item>
-         <item>3.51</item>
-         <item>4.68</item>
-         <item>5.85</item>
-         <item>7.02</item>
-         <item>8.19</item>
-         <item>9.36</item>
-         <item>10.53</item>
-         <item>11.70</item>
-         <item>12.87</item>
-         <item>14.04</item>
-         <item>15.21</item>
-         <item>16.38</item>
-         <item>17.55</item>
-         <item>18.72</item>
-         <item>19.89</item>
-         <item>21.06</item>
-         <item>22.23</item>
-         <item>23.40</item>
-         <item>24.57</item>
-         <item>25.74</item>
-         <item>26.91</item>
-         <item>28.08</item>
-         <item>29.25</item>
-         <item>30.42</item>
-         <item>31.59</item>
-         <item>32.76</item>
-         <item>33.93</item>
-         <item>35.10</item>
-         <item>36.27</item>
-         <item>37.44</item>
-         <item>38.61</item>
-         <item>39.78</item>
-         <item>40.95</item>
-         <item>42.12</item>
-         <item>43.29</item>
-         <item>44.46</item>
-         <item>45.63</item>
-         <item>46.80</item>
-         <item>47.97</item>
-         <item>49.14</item>
-         <item>50.31</item>
-         <item>51.48</item>
-         <item>52.65</item>
-         <item>53.82</item>
-         <item>54.99</item>
-         <item>56.16</item>
-         <item>57.33</item>
-         <item>58.50</item>
-         <item>59.67</item>
-         <item>60.84</item>
-     </string-array>
+    <string-array name="scan_width">
+        <item>2.34</item>
+        <item>3.51</item>
+        <item>4.68</item>
+        <item>5.85</item>
+        <item>7.02</item>
+        <item>8.19</item>
+        <item>9.36</item>
+        <item>10.53</item>
+        <item>11.70</item>
+        <item>12.87</item>
+        <item>14.04</item>
+        <item>15.21</item>
+        <item>16.38</item>
+        <item>17.55</item>
+        <item>18.72</item>
+        <item>19.89</item>
+        <item>21.06</item>
+        <item>22.23</item>
+        <item>23.40</item>
+        <item>24.57</item>
+        <item>25.74</item>
+        <item>26.91</item>
+        <item>28.08</item>
+        <item>29.25</item>
+        <item>30.42</item>
+        <item>31.59</item>
+        <item>32.76</item>
+        <item>33.93</item>
+        <item>35.10</item>
+        <item>36.27</item>
+        <item>37.44</item>
+        <item>38.61</item>
+        <item>39.78</item>
+        <item>40.95</item>
+        <item>42.12</item>
+        <item>43.29</item>
+        <item>44.46</item>
+        <item>45.63</item>
+        <item>46.80</item>
+        <item>47.97</item>
+        <item>49.14</item>
+        <item>50.31</item>
+        <item>51.48</item>
+        <item>52.65</item>
+        <item>53.82</item>
+        <item>54.99</item>
+        <item>56.16</item>
+        <item>57.33</item>
+        <item>58.50</item>
+        <item>59.67</item>
+        <item>60.84</item>
+    </string-array>
     <string-array name="detail_device_status">
         <item>Tiva</item>
         <item>Scanning</item>
@@ -291,5 +296,9 @@
         <item>Scan Button Pressed</item>
         <item>Battery in charge</item>
     </string-array>
+    <string name="title_activity_home_bar_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
- </resources>
+</resources>

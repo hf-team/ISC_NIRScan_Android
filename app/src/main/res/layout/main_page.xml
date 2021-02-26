@@ -7,13 +7,13 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="450dp"
-        android:layout_height="225dp"
+        android:layout_width="427.2dp"
+        android:layout_height="374.4dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="48dp"
         android:src="@drawable/home" />
     <Button
-        android:id="@+id/main_connect"
+        android:id="@+id/main_scan"
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
@@ -25,36 +25,88 @@
         android:textSize="20dp"/>
 
 
+    <Button
+        android:id="@+id/main_setting"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#29B57A"
+        android:paddingLeft="8dp"
+        android:text="@string/text_connect"
+        android:textColor="#F6F0F0"
+        android:textSize="20dp" />
+
     <RelativeLayout
-        android:id="@+id/rl_graph_list"
+        android:id="@+id/main_body"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin">
+        android:layout_height="match_parent">
 
-        <!--<ImageButton
-            android:id="@+id/main_info"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/main_setting"
-            android:layout_marginStart="22dp"
-            android:background="#00000000"
-            android:src="@drawable/info_flatx" />-->
+        <FrameLayout
+            android:id="@+id/fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_bar"/>
 
-        <ImageButton
-            android:id="@+id/main_setting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
+        <LinearLayout
+            android:id="@+id/bottom_bar"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="15dp"
-            android:layout_marginBottom="13dp"
-            android:background="#00000000"
-            android:src="@drawable/setting_flatx" />
-    </RelativeLayout>
-
+            android:orientation="horizontal"
+            android:background="#F2F2F8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <RelativeLayout
+                android:id="@+id/bottom_bar_btn_device"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/bottom_bar_text_device"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:text="@string/text_device"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <ImageView
+                    android:id="@+id/bottom_bar_image_device"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_above="@+id/bottom_bar_text_device"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/isc_logo"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/bottom_bar_btn_own"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/bottom_bar_text_own"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:text="@string/text_own"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+                <ImageView
+                    android:id="@+id/bottom_bar_image_own"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_above="@+id/bottom_bar_text_own"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/isc_logo"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>>
 </LinearLayout>

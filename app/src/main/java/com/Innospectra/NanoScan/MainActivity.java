@@ -71,9 +71,9 @@ public class MainActivity extends Activity  {
                             // 实现页面跳转
                             Intent intent = new Intent();
                             // 存储当前用户名，用于工具界面显示信息
-                            intent.putExtra("username",username.getText().toString());
-                            intent.putExtra("token",jsonObject.getString("AccessToken"));
-                            intent.setClass(MainActivity.this,HomeViewActivity.class);
+                            intent.putExtra("username", username.getText().toString());
+                            intent.putExtra("token", jsonObject.getString("AccessToken"));
+                            intent.setClass(MainActivity.this, HomeViewActivity.class);
                             startActivity(intent);
                             Log.d("TAG", "onResponse: " + json);
                         } else if (username.getText().toString().equals("") || password.getText().toString().equals("")){

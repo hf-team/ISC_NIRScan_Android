@@ -2919,7 +2919,8 @@ public class ScanViewActivity extends Activity {
             processPredictRequest();
         } catch (IOException e) {
             e.printStackTrace();
-            btn_report.setClickable(false);
+            setScanBtnStatus(true, getResources().getString(R.string.text_scanpredict));
+            setReportBtnStatus(false);
         }
     }
     //endregion
@@ -2928,7 +2929,7 @@ public class ScanViewActivity extends Activity {
      * Pager enum to control tab tile and layout resource
      */
     public enum CustomPagerEnum {
-
+        //20210225 zhaozz: 此处调整了枚举顺序，为了让chart默认显示吸光度
         ABSORBANCE(R.string.absorbance, R.layout.page_graph_absorbance),
         REFLECTANCE(R.string.reflectance, R.layout.page_graph_reflectance),
         INTENSITY(R.string.intensity, R.layout.page_graph_intensity),

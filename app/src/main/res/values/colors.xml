@@ -6,4 +6,7 @@
     <color name="red">#d9351f</color>
     <color name="gray">#323232</color>
     <color name="btn_unavailable">#888888</color>
+    <color name="normal_background">#29B57A</color>
+    <color name="normal_text">#F6F0F0</color>
+    <color name="bottom_bar">#D1C7C7</color>
 </resources>
